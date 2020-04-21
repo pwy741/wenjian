@@ -114,7 +114,7 @@
 "rules":
 [
 {"name":"中央频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/cctv/;get;GBK"},
-{"name":"卫视频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/live/;get;GBK"},
+{"name":"卫视频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/tv/;get;GBK"},
 {"name":"体育频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/tiyu;get;GBK"},
 {"name":"港澳频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/gangaotai/;get;GBK"},
 {"name":"少儿频道","rule":".list-box&&.tvlist&&li;a&&Text;a&&href","url":"http://m.yunsosuo.cc/shaoer/;get;GBK"},
