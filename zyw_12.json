@@ -259,6 +259,26 @@
 	"sdetail_find_rule": "body&&.vodplayinfo,1&&li:contains(.m3u);li&&Text.js:input.split('$')[0];*;*;input&&value"
 },
 {
+	"title": "看看资源网",
+	"url": "http://www.kankanzy.com/?m=vod-type-id-fyAll-pg-fypage.html",
+	"col_type": "text_center_1",
+	"class_name": "电影&动作片&喜剧片&爱情片&科幻片&恐怖片&剧情片&战争片&伦理",
+	"class_url": "1&5&6&7&8&9&10&11&24",
+	"area_name": "连续剧&国产剧&港剧&韩剧&欧美剧&日剧&台剧&泰剧&越南剧&纪录片",
+	"area_url": "2&12&13&14&15&17&18&20&26&29",
+	"year_name": "综艺&动漫",
+	"year_url": "3&16",
+	"find_rule": ".xing_vb&&li;.xing_vb4&&Text;*;span,-1&&Text.js:'更新时间：' + input;a&&href",
+	"search_url": "http://www.kankanzy.com/index.php?m=vod-search-pg-fypage-wd-**.html",
+	"titleColor": "",
+	"group": "⑨资源网",
+	"searchFind": ".xing_vb&&li;.xing_vb4&&Text;a&&href;.xing_vb5&&Text;span,-1&&Text",
+	"detail_col_type": "text_2",
+	"detail_find_rule": "body&&.vodplayinfo,1&&li:contains(.m3u);Text.js:input.split('$')[0];*;*;input&&value",
+	"sdetail_col_type": "text_2",
+	"sdetail_find_rule": "body&&.vodplayinfo,1&&li:contains(.m3u);Text.js:input.split('$')[0];*;*;input&&value"
+},
+{
 	"title": "极快资源网",
 	"url": "https://www.jikzy.com/?m=vod-type-id-fyAll-pg-fypage.html",
 	"col_type": "text_center_1",
