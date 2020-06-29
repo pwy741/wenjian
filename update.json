@@ -1,6 +1,7 @@
 {
     "notice": "影视熊规则已失效，准备下架。",
-    "data": [{
+    "data": [
+{
     "title":"影视熊•XYQ",
     "author":"香雅情",
     "version":1,
@@ -96,5 +97,6 @@
     "version":1,
     "updateText":"暂无更新日志",
     "rule":"rule://"}
+
 ]
 }
