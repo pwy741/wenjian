@@ -40,7 +40,9 @@
 {"name":"CCTV-14少儿","url":"http://ivi.bupt.edu.cn/hls/cctv14hd.m3u8"},
 {"name":"CCTV-15音乐","url":"http://cctvalih5ca.v.myalicdn.com/live/cctv15_1/index.m3u8"},
 {"name":"CCTV-17农村农业","url":"http://ivi.bupt.edu.cn/hls/cctv17hd.m3u8"},
-{"name":"CHC高清电影","url":"http://ivi.bupt.edu.cn/hls/chchd.m3u8"}
+{"name":"CHC高清电影","url":"http://ivi.bupt.edu.cn/hls/chchd.m3u8"},
+{"name":"CHC动作电影","url":"http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8"},
+{"name":"CHC家庭影院","url":"http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/1.m3u8"},{"name":"黑莓电影","url":"http://39.134.65.162/PLTV/88888888/224/3221225681/index.m3u8"}
 ],
 "name":"央视"},
 
