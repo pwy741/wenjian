@@ -27,7 +27,7 @@
 {"name":"CCTV-2财经","url":"http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8"},
 {"name":"CCTV-3综艺","url":"http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8"},
 {"name":"CCTV-4国际","url":"http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8"},
-{"name":"CCTV-5体育","url":"http://112.17.40.145/PLTV/88888888/224/3221226687/index.m3u8"},
+{"name":"CCTV-5体育","url":"http://39.135.19.140:18890/PLTV/88888888/224/3221226024/1/index.m3u8?fmt=ts2hls"},
 {"name":"CCTV-5+体育","url":"http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8"},
 {"name":"CCTV-6电影","url":"http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8"},
 {"name":"CCTV-7国防军事","url":"http://ivi.bupt.edu.cn/hls/cctv7hd.m3u8"},
