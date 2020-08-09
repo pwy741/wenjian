@@ -1,4 +1,18 @@
-#数字类站源
+#推荐官方解析资源
+摩拜资源,http://api.mbaijx.com/api.php/provide/vod/at/xml/
+蘑菇资源,http://zy.mgys8.com/api.php/provide/vod/at/xml/
+8090资源,http://zy.yilans.net/api.php/provide/vod/at/xml/
+1717资源,http://zy.itono.cn/inc/api.php
+6U资源,http://zy.ataoju.com/inc/api.php
+QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
+恐怖鸭资源,https://ya.kongbuya.com/api.php/provide/vod/at/xml/
+乐喵资源,http://zy.singlive.cn/api.php/provide/vod/
+诺讯资源,http://ziyuan.nuoxun.net/api.php/provide/vod/at/xml/
+7K资源,https://zy.7kjx.com/cjapi.php
+花园影视,http://api.zz22x.com/inc/qbv10.php
+暗夜资源,https://vip.aywlkj.xyz/api.php/provide/vod/at/xml/
+#
+#数字类切片源
 123资源,http://cj.123ku2.com:12315/inc/api.php
 135资源,http://cj.zycjw1.com/inc/api.php
 158资源网,http://cj.158zyz.net:158/inc/api.php
@@ -8,7 +22,7 @@
 33uu资源,http://cj.1156zy.com/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
 #
-#推荐站源
+#推荐切片源
 ck资源,http://45.195.25.75/maccms/api.php/provide/vod/at/xml/
 芒果TV资源,https://api.shijiapi.com/api.php/provide/vod/at/xml/
 人人资源,http://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/
@@ -38,5 +52,6 @@ C值资源,http://www.czhiziyuan.com/inc/api.php
 速播资源,http://www.subo988.com/inc/api.php
 极快资源,https://www.jikzy.com/inc/api.php
 快快资源,https://api.kkzy.tv/inc/api.php
-天空资源,https://caiji.tiankongapi.com/inc/api.php
+天空资源,http://api.tiankongapi.com/api.php/provide/vod/at/xml/
+7彩资源,http://www.7cziyuan.com/api.php/provide/vod/at/xml/
 #
