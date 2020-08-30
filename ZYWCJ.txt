@@ -1,5 +1,4 @@
 #推荐官方解析资源
-摩拜资源,http://api.mbaijx.com/api.php/provide/vod/at/xml/
 蘑菇资源,http://zy.mgys8.com/api.php/provide/vod/at/xml/
 8090资源,http://zy.yilans.net/api.php/provide/vod/at/xml/
 1717资源,http://zy.itono.cn/inc/api.php
@@ -9,7 +8,7 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 7K资源,https://zy.7kjx.com/cjapi.php
 花园影视,http://api.zz22x.com/inc/qbv10.php
 明日资源,http://zy.zcocc.com/api.php/provide/vod/at/xml/
-焱冰资源,http://www.1234.sb/api.php/provide/vod/at/xml/
+焱冰/摩拜资源,http://www.1234.sb/api.php/provide/vod/at/xml/
 无心影视,https://www.acardia.xyz/api.php/provide/vod/at/xml/
 萝卜资源,http://cj.luobo.gq/api.php/provide/vod/at/xml/
 小小资源,https://api.xxdizhi.cc/api.php/provide/vod/at/xml
@@ -23,6 +22,7 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 605资源,http://www.605zy.co/inc/api.php
 88资源,http://www.88zyw.net/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
+172资源,http://www.172zyw.net/inc/api.php
 #
 #推荐切片源
 青云资源,http://qy-video.com/inc/api.php
