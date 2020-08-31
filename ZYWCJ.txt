@@ -52,4 +52,5 @@ OK资源,http://cj.okzy.tv/inc/api.php
 采集资源,https://www.caijizy.vip/api.php/provide/vod/at/xml/
 魔播盒子,http://api.mubx.xyz/api.php/provide/vod/at/xml/
 百度云资源,http://gg29.bdyunzy.com/api.php/provide/vod/at/xml/
+萝卜资源网,http://cj.lby.pet/api.php/provide/vod/at/xml/
 #
