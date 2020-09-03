@@ -12,16 +12,14 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 萝卜资源,http://cj.luobo.gq/api.php/provide/vod/at/xml/
 小小资源,https://api.xxdizhi.cc/api.php/provide/vod/at/xml
 #
-#切片类（青云资源已失效）
+#切片类
 123资源,http://cj.123ku2.com:12315/inc/api.php
 131资源,http://v.bbtsv.com/inc/api.php
 135资源,http://cj.zycjw1.com/inc/api.php
 158资源网,http://cj.158zyz.net:158/inc/api.php
 209资源,http://cj.1156zy.com/inc/api.php
-605资源,http://www.605zy.co/inc/api.php
 88资源,https://www.88zyw.net/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
-青云资源,http://qy-video.com/inc/api.php
 ck资源,http://45.195.25.75/maccms/api.php/provide/vod/at/xml/
 芒果TV资源,https://api.shijiapi.com/api.php/provide/vod/at/xml/
 人人资源,http://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/
