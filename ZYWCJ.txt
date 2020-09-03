@@ -46,6 +46,8 @@ OK资源,http://cj.okzy.tv/inc/api.php
 豆瓣资源,http://v.1988cj.com/inc/api.php
 极快资源,https://www.jikzy.com/inc/api.php
 天空资源,http://api.tiankongapi.com/api.php/provide/vod/at/xml/
+天空资源2,https://caiji.tiankongapi.com/inc/api.php
+穿梭资源,http://ok.888hyk.com/api.php/provide/vod/from/dbm3u8/at/xml/
 7彩资源,http://www.7cziyuan.com/api.php/provide/vod/at/xml/
 胖鸟资源,http://api.pangniaozyw.com/inc/api.php
 采集资源,https://www.caijizy.vip/api.php/provide/vod/at/xml/
