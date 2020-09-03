@@ -19,7 +19,7 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 158资源网,http://cj.158zyz.net:158/inc/api.php
 209资源,http://cj.1156zy.com/inc/api.php
 605资源,http://www.605zy.co/inc/api.php
-88资源,http://www.88zyw.net/inc/api.php
+88资源,https://www.88zyw.net/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
 172资源,http://www.172zyw.net/inc/api.php
 失效_青云资源,http://qy-video.com/inc/api.php
