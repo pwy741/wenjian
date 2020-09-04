@@ -42,10 +42,8 @@ OK资源,http://cj.okzy.tv/inc/api.php
 极快资源,https://www.jikzy.com/inc/api.php
 天空资源,http://api.tiankongapi.com/api.php/provide/vod/at/xml/
 穿梭资源,http://ok.888hyk.com/api.php/provide/vod/from/dbm3u8/at/xml/
-7彩资源,http://www.7cziyuan.com/api.php/provide/vod/at/xml/
 胖鸟资源,http://api.pangniaozyw.com/inc/api.php
 采集资源,https://www.caijizy.vip/api.php/provide/vod/at/xml/
-魔播盒子,http://api.mubx.xyz/api.php/provide/vod/at/xml/
 百度云资源,https://cj.apibdzy.com/inc/api.php
 沃酷资源,http://www.wokuzy.com/api/xml/wokull
 萝卜资源网,http://cj.lby.pet/api.php/provide/vod/from/lbm3u8/at/xml/
