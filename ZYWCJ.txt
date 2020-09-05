@@ -1,4 +1,4 @@
-#官方解析类（需配合觅影插件使用，避免视频广告请勿用带htv009的嗅探链接。）
+#官方解析类（需配合觅影插件使用，避免视频中插入的色情广告请勿用带htv009的嗅探链接。）
 蘑菇资源,http://zy.mgys8.com/api.php/provide/vod/at/xml/
 1717资源,http://zy.itono.cn/inc/api.php
 QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
