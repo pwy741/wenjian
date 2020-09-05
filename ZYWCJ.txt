@@ -1,4 +1,4 @@
-#官方解析类（请务必使用8.28更新的云规则,已替换该分类解析接口为猫解析。）
+#官方解析类（请务必使用8.28更新的云规则已替换该分类解析接口为猫解析）
 蘑菇资源,http://zy.mgys8.com/api.php/provide/vod/at/xml/
 8090资源,http://zy.yilans.net/api.php/provide/vod/at/xml/
 1717资源,http://zy.itono.cn/inc/api.php
