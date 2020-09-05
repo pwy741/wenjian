@@ -1,5 +1,8 @@
 function erji() {
 var html = getResCode();
+if (html.indexOf('正在安全检测中') != -1) {
+html=fetch(MY_URL+'&'+html.split('&')[2].split('\"')[0], {});
+}
 var arrr = getUrl().split("?")[0];
 var res = {};
 var items = [];
@@ -34,8 +37,11 @@ setHomeResult(res);
 function sserji() {
 var res = {};
 var items = [];
-var arr = getUrl().split('?')[0];
 var html = getResCode();
+if (html.indexOf('正在安全检测中') != -1) {
+html=fetch(MY_URL+'&'+html.split('&')[2].split('\"')[0], {});
+}
+var arr = getUrl().split('?')[0];
 if(html.indexOf('<video>')==-1){items.push({
 			title: '当前页面无资源。',
 		col_type: 'text_center_1'
