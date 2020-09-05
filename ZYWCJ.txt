@@ -14,6 +14,7 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 #
 #切片类(9.4/优化yun线路解析能力)
 123资源,http://cj.123ku2.com:12315/inc/api.php
+605资源网,http://www.605zy.co/inc/api.php
 135资源,http://cj.zycjw1.com/inc/api.php
 158资源网,http://cj.158zyz.net:158/inc/api.php
 209资源,http://cj.1156zy.com/inc/api.php
