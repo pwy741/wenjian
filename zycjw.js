@@ -1,5 +1,8 @@
 function erji() {
 var html = getResCode();
+if (html.indexOf('正在安全检测中') != -1) {
+html=fetch(MY_URL + html.split('php')[1].split('\"')[0], {});
+}
 var arrr = getUrl().split("?")[0];
 var res = {};
 var items = [];
