@@ -10,6 +10,7 @@ QT资源,http://zy.potatost.xyz/api.php/provide/vod/at/xml/
 小小资源,https://api.xxdizhi.cc/api.php/provide/vod/at/xml
 看呗资源,https://api.kanbezy.cn/api.php/provide/vod/at/xml/
 8090资源,http://zy.yilans.net/api.php/provide/vod/at/xml/
+无限影视,http://www.wxtv.net/api.php/provide/vod/at/xml
 #
 #切片类(9.4/优化该分类带yun线路的解析能力)
 123资源,http://cj.123ku2.com:12315/inc/api.php
