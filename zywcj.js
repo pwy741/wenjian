@@ -3,7 +3,7 @@ var res = {};
 var items = [];
 items.push({
 title:'该版本已停用，点击更新最新版',
-desc:'请使用9.9更新的全新搜索规则的版本',
+desc:'请更新',
 url:'',
 col_type: 'text_center_1'
 });
