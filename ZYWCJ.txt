@@ -21,7 +21,6 @@
 158资源网,http://cj.158zyz.net:158/inc/api.php
 209资源,http://cj.1156zy.com/inc/api.php
 605资源,http://www.605zy.co/inc/api.php
-33uu资源,http://cj.1156zy.com/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
 9191资源,http://api.9191zy.vip/inc/api.php
 沃酷m3u8资源,https://www.wokuzy.com/api/xml/wokum3u8
@@ -39,7 +38,6 @@ ck资源,http://45.195.25.75/maccms/api.php/provide/vod/at/xml/
 OK资源,http://cj.okzy.tv/inc/api.php
 永久资源,http://cj.yongjiuzyw.com/inc/api.php
 酷播资源,http://api.kbzyapi.com/inc/api.php
-魔卡资源,https://cj.heiyap.com/api.php/provide/vod/at/xml/
 秒播资源,http://caiji.mb77.vip/inc/api.php
 牛牛资源,http://v.niuniucj.com/inc/api.php
 4k资源,https://kkkkzy.com/api.php/provide/vod/at/xml/
