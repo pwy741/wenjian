@@ -13,8 +13,7 @@ setHomeResult(res);
 function TWEJ() {
 var html = getResCode();
 if (html.indexOf('正在安全检测中') != -1) {
-html=fetch(MY_URL+'&'+html.split('&')[2].split('\"')[0], {});
-}
+html=fetch(MY_URL+'&'+html.split('&')[2].split('\"')[0], {});}else if(html.indexOf('fwkey') != -1){html=fetch(MY_URL+html.split('\"')[1], {})}
 var arrr = MY_URL.split("?")[0];
 var pn = MY_URL.split("=")[2];
 var res = {};
@@ -22,7 +21,7 @@ var items = [];
 //对第一页分类进行处理
 if(pn=='1'){
 var rescod= fetch(arrr+"?ac=list",{});
-var type = parseDomForHtml(rescod,"class&&Html").match(/<ty [\s\S]*?<\/ty>/g);
+var type = parseDomForHtml(rescod,"class&&Html").match(/<ty[\s]id[\s\S]*?<\/ty>/g);
 for(var i=0;i<type.length;i++){
 var title = parseDomForHtml(type[i],"body&&Text");
 var url = parseDomForHtml(type[i],"body&&ty&&id");
