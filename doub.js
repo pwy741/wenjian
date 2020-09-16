@@ -1,4 +1,4 @@
-function TWEJ() {
+function doub() {
 var res={};
 var items=[];
 var html=getResCode();
