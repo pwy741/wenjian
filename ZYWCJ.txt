@@ -7,7 +7,6 @@
 诺讯资源,http://ziyuan.nuoxun.net/api.php/provide/vod/at/xml/
 7K资源,https://zy.7kjx.com/cjapi.php
 花园影视,http://api.zz22x.com/inc/qb.php
-暗夜资源,https://vip.aywlkj.xyz/api.php/provide/vod/at/xml/
 明日资源,http://zy.zcocc.com/api.php/provide/vod/at/xml/
 萝卜资源,http://cj.luobo.gq/api.php/provide/vod/at/xml/
 小小资源,https://api.xxdizhi.cc/api.php/provide/vod/at/xml/
