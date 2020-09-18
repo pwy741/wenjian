@@ -33,7 +33,7 @@ OK资源,http://cj.okzy.tv/inc/api.php
 4k资源,https://kkkkzy.com/api.php/provide/vod/at/xml/
 百万资源,https://www.baiwanzy.net/inc/api.php
 速播资源,http://www.subo988.com/inc/api.php
-看看131资源,http://v.bbtsv.com/inc/api.php
+看看/131,http://v.bbtsv.com/inc/api.php
 聚合资源,https://cj.cbi88.com/inc/api_juhem3u8.php
 豆瓣资源,http://v.1988cj.com/inc/api.php
 极快资源,https://www.jikzy.com/inc/api.php
