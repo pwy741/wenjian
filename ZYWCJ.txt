@@ -51,6 +51,6 @@ OK资源,http://cj.okzy.tv/inc/api.php
 乐喵资源,http://zy.singlive.cn/api.php/provide/vod/at/xml/
 诺讯资源,http://ziyuan.nuoxun.net/api.php/provide/vod/at/xml/
 奇领yy6080,http://yyid6080.cn/api.php/provide/vod/at/xml/
-萝卜资源,http://cj.luobo.gq/api.php/provide/vod/at/xml/
+萝卜资源,https://cj.lby.pet/api.php/provide/vod/at/xml/
 最新资源,http://api.zuixinapi.com/inc/api.php
 #
