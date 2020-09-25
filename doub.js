@@ -74,7 +74,8 @@ url=list[j].split('$')[1];
 url=list[j].split('$')[0];
 }
 if(getUrl().indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
-if(getUrl().indexOf('ddyunp')!=-1){url='https://player.ddyunp.com/play.php?url='+url}
+if(flag=='ddyunp'){url='https://player.ddyunp.com/play.php?url='+url}
+if(flag=='ppayun'){url='https://wy.mlkioiy.cn/api/ShowVideoWy/683d2433ee134cde8063d50506c1a1b1/'+url}
 if(getUrl().indexOf('yyid6080')!=-1){if(flag=='xigua'){url='https://bbs.cnzv.cc/dp/6080mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
 if(getUrl().indexOf('rrzyw')!=-1){
 url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url
