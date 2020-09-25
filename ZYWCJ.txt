@@ -8,7 +8,7 @@
 明日资源,http://zy.zcocc.com/api.php/provide/vod/at/xml/
 八八资源,http://zy.88jiexi.com/api.php/provide/vod/at/xml/
 #
-#切片类(遇到规则有问题请及时到9群11群或论坛向我反馈）
+#切片类(遇到规则有问题请及时到9群11群或论坛向我反馈，有好的接口可发给我添加。）
 百度云资源,https://api.apibdzy.com/api.php/provide/vod/at/xml/
 沃酷m3u8,https://www.wokuzy.com/api/xml/wokum3u8
 阿里云资源,http://www.alizyw.com:88/api.php/provide/vod/at/xml/
