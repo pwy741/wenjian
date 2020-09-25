@@ -14,6 +14,7 @@
 ck资源,http://45.195.25.75/maccms/api.php/provide/vod/at/xml/
 OK资源,http://cj.okzy.tv/inc/api.php
 多多云,http://api.ddyunp.com/api.php/provide/vod/at/xml/
+泡饭影视,https://www.paofans.net/api.php/provide/vod/at/xml/
 人人资源,http://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/
 麻花资源,https://www.mhapi123.com/inc/ldg_api_all.php
 酷云资源,http://caiji.kuyun98.com/inc/ldg_api.php
