@@ -47,6 +47,7 @@ OK资源,http://cj.okzy.tv/inc/api.php
 麻雀资源,http://api.maquezy.com/inc/api.php
 123资源,http://www.123ku.com/inc/api.php
 158资源网,http://cj.158zyz.net:158/inc/api.php
+一起看剧,http://www.17kanju.com/api.php/provide/vod/at/xml/
 209资源,http://cj.1156zy.com/inc/api.php
 605资源,http://www.605zy.co/inc/api.php
 1886资源,http://cj.1886zy.co/inc/api.php
