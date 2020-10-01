@@ -11,9 +11,6 @@ res.data=items;
 setHomeResult(res);
 }
 function TWEJ() {
-var html = getResCode();
-if (html.indexOf('正在安全检测中') != -1) {
-html=fetch(MY_URL+'&'+html.split('pg=1&')[1].split('\"')[0], {});}else if(html.indexOf('fwkey') != -1){html=fetch(MY_URL+html.split('\"')[1], {})}
 var arrr = MY_URL.split("?")[0];
 var pn = MY_URL.split("=")[2];
 var res = {};
@@ -32,6 +29,10 @@ title:title,url:arrr+"?ac=videolist&pg=fypage&t="+url+`@rule=js:var html = getRe
 col_type:"text_3"});}}items.push({col_type: 'line'});}
 //结束第一页分类处理
 //对列表处理开始
+var html = getResCode();
+if (html.indexOf('正在安全检测中') != -1) {
+html=fetch(MY_URL+'&'+html.split('pg=1&')[1].split('\"')[0], {});}else if(html.indexOf('fwkey') != -1){html=fetch(MY_URL+html.split('\"')[1], {})}
+
 var list=parseDomForHtml(html,"rss&&Html").match(/<video>[\s\S]*?<\/video>/g);
 for(var j = 0; j <list.length; j++){
 var title = parseDomForHtml(list[j],"body&&name&&Text"); 
