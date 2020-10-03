@@ -40,6 +40,7 @@ OK资源,http://cj.okzy.tv/inc/api.php
 帝国资源,http://www.yszydg.com/inc/api.php
 乐多资源,http://www.leduozy.com/inc/seacmsapi.php
 萝卜m3u8,http://zy.lbe4.co/api.php/provide/vod/from/lbm3u8/at/xml
+恐怖鸭m3u8,https://ya.kongbuya.com/api.php/provide/vod/from/kbym3u8/at/xml
 麻雀资源,http://api.maquezy.com/inc/api.php
 百度云资源,https://api.apibdzy.com/api.php/provide/vod/at/xml
 穿梭资源,http://ok.888hyk.com/api.php/provide/vod/at/xml
