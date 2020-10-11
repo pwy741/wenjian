@@ -15,11 +15,9 @@ var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i=0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
-if(flag
-=="qdyun"){flag=flag+" 不显示播放的需刷新一次网页才能播"}
 if(list!=null){
 items.push({
-title:flag,
+title:flag=='qdyun'?flag+" 不显示播放的需刷新一次网页才能播":flag,
 col_type:'text_1'});
 var url={};
 for(var j=0;j<list.length;j++){
@@ -66,11 +64,9 @@ var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i = 0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
-if(flag
-=="qdyun"){flag=flag+" 不显示播放的需刷新一次网页才能播"}
 if(list!=null){
 items.push({
-title:flag,
+title:flag=='qdyun'?flag+" 不显示播放的需刷新一次网页才能播":flag,
 col_type: 'text_1'
 });
 var url={};
