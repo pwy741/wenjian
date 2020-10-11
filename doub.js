@@ -16,7 +16,7 @@ for(var i=0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
 if(flag
-=="qdyun"){flag=flag+" 需刷新一次网页才能播"}
+=="qdyun"){flag=flag+" 不显示播放的需刷新一次网页才能播"}
 if(list!=null){
 items.push({
 title:flag,
@@ -67,7 +67,7 @@ for(var i = 0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
 if(flag
-=="qdyun"){flag=flag+" 需刷新一次网页才能播"}
+=="qdyun"){flag=flag+" 不显示播放的需刷新一次网页才能播"}
 if(list!=null){
 items.push({
 title:flag,
