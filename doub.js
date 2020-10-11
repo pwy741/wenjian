@@ -15,6 +15,8 @@ var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i=0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
+if(flag
+=="qdyun"){flag=flag+" 需刷新一次网页才能播"}
 if(list!=null){
 items.push({
 title:flag,
@@ -64,6 +66,8 @@ var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i = 0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
 var flag=parseDomForHtml(conts[i], "body&&dd&&flag");
+if(flag
+=="qdyun"){flag=flag+" 需刷新一次网页才能播"}
 if(list!=null){
 items.push({
 title:flag,
