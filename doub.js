@@ -21,17 +21,14 @@ title:flag=='qdyun'?flag+" 不显示播放的需刷新一次网页才能播":fla
 col_type:'text_1'});
 var url={};
 for(var j=0;j<list.length;j++){
-if(list[j].split('$')[1]!=null){
-url=list[j].split('$')[1];}else{url=list[j].split('$')[0];}
+if(list[j].split('$')[1]!=null){url=list[j].split('$')[1];}else{url=list[j].split('$')[0];}
 if(getUrl().indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
 if(flag=='ddyunp'){url='https://player.ddyunp.com/play.php?url='+url}
 if(flag=='qdyun'){url='http://qdy.zt6a.cn/parse?resources='+url}
 if(flag=='ppayun'||flag=='gangtiexia'){url=url.substring(0,4)=='http'?url:'https://wy.mlkioiy.cn/api/ShowVideoWy/683d2433ee134cde8063d50506c1a1b1/'+url}
 if(flag=='tt10'){url='https://wy.mlkioiy.cn/api/ShowVideoMu/3bb24322f78b47dfb8723c13d46d45ee/'+url}
 if(getUrl().indexOf('yyid6080')!=-1||getUrl().indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
-if(flag=='rrm3u8'){
-url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url
-}
+if(flag=='rrm3u8'){url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url}
 items.push({
 title:list[j].split('$')[0].indexOf('http')!=-1?[j+1]:list[j].split('$')[0],
 url:url.replace(/\n*/g,'')+`@lazyRule=.js:var src=input.replace(/amp;/g,"");if(src.indexOf("html")!=-1){var jiek="http://39.maosp.me/jx/?url=";var fileUrl="https://gitee.com/lzk23559/public_folder/raw/master/maojx.js";var js=fetch(fileUrl,{});eval(js);var url=Maosp.toUrl(jiek+src.split('"')[0]);url!=""?url:src.split('"')[0];}else if(src.indexOf("share")!=-1){var link=src.split("/share")[0];var fc=fetch(src,{}).replace("var purl","var main");if(fc.indexOf("main")!=-1){var mat=fc.match(/var main.*?;/)[0];eval(mat);main.indexOf("http")!=-1?main:link+main;}else{var main=fc.match(/url:.*?[\'\"](.*?)[\'\"]/)[1];main.indexOf("http")!=-1?main:link+main};}else if(src.indexOf("rrzyw")!=-1){fetch(input,{}).match(/url:.*?[\'\"](.*?)[\'\"]/)[1];}else if(src.indexOf("leduotv")!=-1){var pla=fetch(src,{}).split("var url=\'")[1].split("\'")[0];if(pla.indexOf("m3u8")!=-1){pla.split("=")[1]};}else if(src.indexOf("aHR0c")!=-1){decodeURIComponent(base64Decode(src.split("&")[0]));}else if(src.indexOf("haodanxia")!=-1){JSON.parse(fetch(src, {headers:{"User-Agent":"Dalvik/2.1.0"}, redirect:false, withHeaders:true})).headers.location[0]+"#.mp4";}else if(src.indexOf("shenma4480")!=-1){var sm="https://www.shenma4480.com/"+fetch(src,{headers:{"Referer":"https://www.shenma4480.com"}}).match(/var u=\"(.*?)\"/)[1];fetch(sm,{headers:{"Referer":"https://www.shenma4480.com"}}).match(/url:.*?[\'\"](.*?)[\'\"]/)[1].replace(/[+]/g,"%20");}else if(src.indexOf("mlkioiy")!=-1){if(src.indexOf("ShowVideo")!=-1){var mlki=parseDomForHtml(fetch(src,{}),"body&&#dplayer&&result");var fileUrl ="https://gitee.com/lzk23559/rulehouse/raw/master/pako-min.js";eval(fetch(fileUrl,{}));realUrl;}else{src+"#.mp4"};}else{src}`,
@@ -71,20 +68,14 @@ col_type: 'text_1'
 });
 var url={};
 for(var j = 0; j<list.length; j++){
-if(list[j].split('$')[1]!=null){
-url=list[j].split('$')[1];
-}else{
-url=list[j].split('$')[0];
-}
+if(list[j].split('$')[1]!=null){url=list[j].split('$')[1];}else{url=list[j].split('$')[0];}
 if(getUrl().indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
 if(flag=='ddyunp'){url='https://player.ddyunp.com/play.php?url='+url}
 if(flag=='qdyun'){url='http://qdy.zt6a.cn/parse?resources='+url}
 if(flag=='ppayun'||flag=='gangtiexia'){url=url.substring(0,4)=='http'?url:'https://wy.mlkioiy.cn/api/ShowVideoWy/683d2433ee134cde8063d50506c1a1b1/'+url}
 if(flag=='tt10'){url='https://wy.mlkioiy.cn/api/ShowVideoMu/3bb24322f78b47dfb8723c13d46d45ee/'+url}
 if(getUrl().indexOf('yyid6080')!=-1||getUrl().indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
-if(flag=='rrm3u8'){
-url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url
-}
+if(flag=='rrm3u8'){url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url}
 items.push({
 title:list[j].split('$')[0].indexOf('http')!=-1?[j+1]:list[j].split('$')[0],
 url:url.replace(/\n*/g,'')+`@lazyRule=.js:var src=input.replace(/amp;/g,"");if(src.indexOf("html")!=-1){var jiek="http://39.maosp.me/jx/?url=";var fileUrl="https://gitee.com/lzk23559/public_folder/raw/master/maojx.js";var js=fetch(fileUrl,{});eval(js);var url=Maosp.toUrl(jiek+src.split('"')[0]);url!=""?url:src.split('"')[0];}else if(src.indexOf("share")!=-1){var link=src.split("/share")[0];var fc=fetch(src,{}).replace("var purl","var main");if(fc.indexOf("main")!=-1){var mat=fc.match(/var main.*?;/)[0];eval(mat);main.indexOf("http")!=-1?main:link+main;}else{var main=fc.match(/url:.*?[\'\"](.*?)[\'\"]/)[1];main.indexOf("http")!=-1?main:link+main};}else if(src.indexOf("rrzyw")!=-1){fetch(input,{}).match(/url:.*?[\'\"](.*?)[\'\"]/)[1];}else if(src.indexOf("leduotv")!=-1){var pla=fetch(src,{}).split("var url=\'")[1].split("\'")[0];if(pla.indexOf("m3u8")!=-1){pla.split("=")[1]};}else if(src.indexOf("aHR0c")!=-1){decodeURIComponent(base64Decode(src.split("&")[0]));}else if(src.indexOf("haodanxia")!=-1){JSON.parse(fetch(src, {headers:{"User-Agent":"Dalvik/2.1.0"}, redirect:false, withHeaders:true})).headers.location[0]+"#.mp4";}else if(src.indexOf("shenma4480")!=-1){var sm="https://www.shenma4480.com/"+fetch(src,{headers:{"Referer":"https://www.shenma4480.com"}}).match(/var u=\"(.*?)\"/)[1];fetch(sm,{headers:{"Referer":"https://www.shenma4480.com"}}).match(/url:.*?[\'\"](.*?)[\'\"]/)[1].replace(/[+]/g,"%20");}else if(src.indexOf("mlkioiy")!=-1){if(src.indexOf("ShowVideo")!=-1){var mlki=parseDomForHtml(fetch(src,{}),"body&&#dplayer&&result");var fileUrl ="https://gitee.com/lzk23559/rulehouse/raw/master/pako-min.js";eval(fetch(fileUrl,{}));realUrl;}else{src+"#.mp4"};}else{src}`,
