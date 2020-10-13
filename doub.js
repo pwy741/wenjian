@@ -10,7 +10,7 @@ pic_url:thumb,
 url:thumb,
 col_type:'pic_1'
 });
-var conts=parseDomForHtml(html,'rss&&dl&&dd');
+var conts=parseDomForArray(html,'rss&&dl&&dd');
 var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i=0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
@@ -56,7 +56,7 @@ pic_url:thumb,
 url:thumb,
 col_type: 'pic_1'
 });
-var conts=parseDomForHtml(html,'rss&&dl&&dd');
+var conts=parseDomForArray(html,'rss&&dl&&dd');
 var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i = 0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
