@@ -10,7 +10,7 @@ pic_url:thumb,
 url:thumb,
 col_type:'pic_1'
 });
-var conts=parseDomForHtml(html,'rss&&dl&&Html').match(/<dd[\s\S]*?<\/dd>/g);
+var conts=parseDomForHtml(html,'rss&&dl&&dd');
 var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i=0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
@@ -22,12 +22,12 @@ col_type:'text_1'});
 var url={};
 for(var j=0;j<list.length;j++){
 if(list[j].split('$')[1]!=null){url=list[j].split('$')[1];}else{url=list[j].split('$')[0];}
-if(getUrl().indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
+if(MY_URL.indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
 if(flag=='ddyunp'){url='https://player.ddyunp.com/play.php?url='+url}
 if(flag=='qdyun'){url='http://qdy.zt6a.cn/parse?resources='+url}
 if(flag=='ppayun'||flag=='gangtiexia'){url=url.substring(0,4)=='http'?url:'https://wy.mlkioiy.cn/api/ShowVideoWy/683d2433ee134cde8063d50506c1a1b1/'+url}
 if(flag=='tt10'){url='https://wy.mlkioiy.cn/api/ShowVideoMu/3bb24322f78b47dfb8723c13d46d45ee/'+url}
-if(getUrl().indexOf('yyid6080')!=-1||getUrl().indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
+if(MY_URL.indexOf('yyid6080')!=-1||MY_URL.indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
 if(flag=='rrm3u8'){url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url}
 items.push({
 title:list[j].split('$')[0].indexOf('http')!=-1?[j+1]:list[j].split('$')[0],
@@ -56,7 +56,7 @@ pic_url:thumb,
 url:thumb,
 col_type: 'pic_1'
 });
-var conts=parseDomForHtml(html,'rss&&dl&&Html').match(/<dd[\s\S]*?<\/dd>/g);
+var conts=parseDomForHtml(html,'rss&&dl&&dd');
 var url=parseDomForHtml(html,'rss&&id&&Text');
 for(var i = 0;i<conts.length;i++){
 var list=conts[i].split(">\n")[1].split("\n<")[0].split("#");
@@ -69,12 +69,12 @@ col_type: 'text_1'
 var url={};
 for(var j = 0; j<list.length; j++){
 if(list[j].split('$')[1]!=null){url=list[j].split('$')[1];}else{url=list[j].split('$')[0];}
-if(getUrl().indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
+if(MY_URL.indexOf('leduozy')!=-1){url='https://api.leduotv.com/wp-api/glid.php?vid='+url}
 if(flag=='ddyunp'){url='https://player.ddyunp.com/play.php?url='+url}
 if(flag=='qdyun'){url='http://qdy.zt6a.cn/parse?resources='+url}
 if(flag=='ppayun'||flag=='gangtiexia'){url=url.substring(0,4)=='http'?url:'https://wy.mlkioiy.cn/api/ShowVideoWy/683d2433ee134cde8063d50506c1a1b1/'+url}
 if(flag=='tt10'){url='https://wy.mlkioiy.cn/api/ShowVideoMu/3bb24322f78b47dfb8723c13d46d45ee/'+url}
-if(getUrl().indexOf('yyid6080')!=-1||getUrl().indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
+if(MY_URL.indexOf('yyid6080')!=-1||MY_URL.indexOf('p4kan')!=-1){if(flag=='xigua'||flag=='bjm3u8'){url='https://bbs.cnzv.cc/dp/mp4.php?url=http://list.47api.cn:90/qq/xigua.php?id='+url;}else if(flag=='qqkj'){url='https://bbs.cnzv.cc/dp/ck/ck.php?url=http://list.47api.cn:90/qq/mp4.php?id='+url;}else{url=url};}
 if(flag=='rrm3u8'){url='https://www.rrzyw.cc/rrm3u8/index.php?url='+url}
 items.push({
 title:list[j].split('$')[0].indexOf('http')!=-1?[j+1]:list[j].split('$')[0],
