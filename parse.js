@@ -17,7 +17,6 @@ var tools = {
         return result.toString(CryptoJS.enc.Utf8);
     }
 };
-
 var Maosp = {
     toUrl: function (input) {
         try {
