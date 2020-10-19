@@ -18,7 +18,8 @@ var items = [];
 //对第一页分类进行处理
 if(pn=='1'){
 try{
-var rescod= fetch(arrr+"?ac=list",{});
+var mua = "Mozilla/5.0 (Linux; U; Android 10; zh-CN; ELE-AL00 Build/HUAWEIELE-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.8.6.1066 Mobile Safari/537.36";
+var rescod= fetch(arrr+"?ac=list",{headers:{"User-Agent":mua}});
 var type = parseDomForHtml(rescod,"class&&Html").match(/<ty[\s]id[\s\S]*?<\/ty>/g);
 for(var i=0;i<type.length;i++){
 var title = parseDomForHtml(type[i],"body&&Text").split('{')[0];
