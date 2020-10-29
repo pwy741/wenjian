@@ -19,7 +19,10 @@ var items = [];
 if(pn=='1'){
 try{
 var mua = "Mozilla/5.0 (Linux; U; Android 10; zh-CN; ELE-AL00 Build/HUAWEIELE-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.8.6.1066 Mobile Safari/537.36";
-var rescod= fetch(arrr+"?ac=list",{headers:{"User-Agent":mua}});
+//var rescod= fetch(arrr+"?ac=list",{headers:{"User-Agent":mua}});
+if(getResCode().indexOf('xmcloud') != -1){
+var rescod= fetch(arrr+"?ac=list",{headers:{"Cookie":"vdata=e84fc887a31ad8c690101247a5167381"}});
+}else{var rescod= fetch(arrr+"?ac=list",{headers:{"User-Agent":mua}});}
 var type = parseDomForHtml(rescod,"class&&Html").match(/<ty[\s]id[\s\S]*?<\/ty>/g);
 for(var i=0;i<type.length;i++){
 var title = parseDomForHtml(type[i],"body&&Text").split('{')[0];
@@ -45,6 +48,8 @@ if (html.indexOf('正在安全检测中') != -1) {
 html=fetch(MY_URL+'&'+html.split('pg=1&')[1].split('\"')[0], {});
 }else if(html.indexOf('fwkey') != -1){
 html=fetch(MY_URL+html.split('\"')[1], {});
+}else if(html.indexOf('xmcloud') != -1){
+html=fetch(MY_URL+html.split('\"')[1], {headers:{"Cookie":"vdata=e84fc887a31ad8c690101247a5167381"}});
 }
 var list=parseDomForArray(html,"rss&&video");
 for(var j = 0; j <list.length; j++){
